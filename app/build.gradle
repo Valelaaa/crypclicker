@@ -86,6 +86,9 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-reactivestreams-ktx:2.6.2")
     implementation 'androidx.fragment:fragment:1.6.1'
     implementation "androidx.compose.runtime:runtime:1.0.0"
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.5'
 
     // optional - Test helpers for LiveData
     testImplementation("androidx.arch.core:core-testing:2.2.0")
